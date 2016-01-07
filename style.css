@@ -1,0 +1,80 @@
+#schaun {
+    background: white url("img/clickshaun.png") no-repeat;
+    border: none;
+    width: 276px;
+    height: 276px;
+    position: absolute;
+    left: 100px;
+    top: 100px;
+    color: #970B8C;
+    font-size: 22px;
+    font-weight: 500;
+    cursor: pointer;
+    outline: none;
+}
+
+/* Survole des liens */
+#schaun:hover {
+    font-weight: bold;
+}
+
+/* Liens actifs */
+#schaun:active {
+    color: lime;
+}
+
+h1 {
+    padding-top:20px;
+    padding-left: 100px;
+}
+
+#container{
+    position: absolute;
+    left: 420px;
+    top: 100px;
+}
+
+#multiplier, #autoclick {
+    background: white url("img/twinspetit.png") no-repeat;
+    height: 120px;
+    width: 150px;
+    cursor: pointer;
+    outline: none;
+    margin: auto 60px;
+    border: black 1px solid;
+}
+
+#multiplier:hover, #autoclick:hover {
+    border: lime 3px solid;;
+    background-color: powderblue;
+}
+
+#multiplier {
+    background: white url("img/twinspetit.png") no-repeat;
+}
+
+#multiplier:hover, #autoclick:hover {
+    border: lime 3px solid;;
+    background-color: powderblue;
+
+}
+
+#text_multiplier, #text_autoclick {
+    margin: 0;
+    text-align: center;
+    color: black;
+    font-weight: 500;
+}
+
+p {
+    font-size: 12px;
+    margin: 0 0 15px 0;
+}
+
+h2 {
+    margin: 0;
+}
+
+#autoclick {
+    background: white url("img/robot_shaun.png") no-repeat;
+}
